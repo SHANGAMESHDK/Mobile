@@ -74,7 +74,15 @@ function App() {
       ease: "Expo.easeInOut",
     });
 
-    
+    gsap.to(".text", {
+      scale: 1  ,
+      x: "-10%",
+      bottom: "50%",
+      rotate: 0,
+      duration: 2,
+      delay: "-.25",
+      ease: "Expo.easeInOut",
+    });
 
     const main = document.querySelector(".main");
 
