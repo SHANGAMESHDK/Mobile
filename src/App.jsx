@@ -113,7 +113,7 @@ function App() {
                   textAnchor="middle"
                   fill="white"
                   dominantBaseline="middle"
-                  fontFamily="Arial Black"
+                  fontFamily="pricedown"
                 >
                   SHANG
                 </text>
@@ -152,7 +152,7 @@ function App() {
                 src="./bg.jpeg"
                 alt=""
               />
-              <div className="text text-white flex flex-col gap-3 absolute top-60 left-0  scale-[3] rotate-[-10deg]">
+              <div className="text text-white flex flex-col gap-3 absolute top-60 left-[10%]  scale-[3] rotate-[-10deg]">
                 <h1 className="text-[4rem] leading-none -ml-0">MY</h1>
                 <h1 className="text-[4rem] leading-none ml-20">PORTFOLIO</h1>
                 <h1 className="text-[4rem] leading-none -ml-0">WEBSITE</h1>
