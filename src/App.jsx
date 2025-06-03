@@ -76,7 +76,7 @@ function App() {
 
     gsap.to(".text", {
       scale: 1  ,
-      x: "3%",
+      
       bottom: "50%",
       rotate: 0,
       duration: 2,
@@ -152,7 +152,7 @@ function App() {
                 src="./bg.jpeg"
                 alt=""
               />
-              <div className="text text-white flex flex-col gap-3 absolute top-60 left-4/9 -translate-x-1/2 scale-[4] rotate-[-10deg]">
+              <div className="text text-white flex flex-col gap-3 absolute top-60 left-4/9 -translate-x-1/2 scale-[3] rotate-[-10deg]">
                 <h1 className="text-[4rem] leading-none -ml-0">MY</h1>
                 <h1 className="text-[4rem] leading-none ml-20">PORTFOLIO</h1>
                 <h1 className="text-[4rem] leading-none -ml-0">WEBSITE</h1>
