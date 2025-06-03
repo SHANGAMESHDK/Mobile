@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "@fontsource/space-grotesk";
+@font-face {
+  font-family: "pricedown"; 
+  src: url("/pricedown.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "pricedown";
+}
+/* Use Roboto (or any mobile-optimized font) on smaller screens */
+.font-responsive {
+  font-family: "Roboto", sans-serif;
+}
+
+/* On medium screens and up, switch to Space Grotesk */
+@media (min-width: 768px) {
+  .font-responsive {
+    font-family: "Space Grotesk", sans-serif;
+  }
+}
