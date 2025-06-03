@@ -184,7 +184,7 @@ function App() {
               <div className="px-10">
                 <div style={{ fontFamily: 'Space Grotesk' }}>
                   <h1 className="text-4xl font-bold">Hi,</h1>
-                  <h2 className="text-4xl font-bold">I am Shangamesh D K,</h2>
+                  <h2 className="text-3xl font-bold">I am Shangamesh D K,</h2>
                   <h1 className="mt-2 text-2xl  font-bold">Software Developer
 & VFX Artist.</h1>
                 </div>
