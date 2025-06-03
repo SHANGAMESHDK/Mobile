@@ -76,7 +76,7 @@ function App() {
 
     gsap.to(".text", {
       scale: 1  ,
-      x: "-10%",
+      x: "0%",
       bottom: "50%",
       rotate: 0,
       duration: 2,
